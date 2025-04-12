@@ -17,7 +17,7 @@ export default function Home() {
     setError('');
     setLoading(true);  
     try {
-      const res = await axios.get(`http://localhost:5000/weather?city=${city}`);
+      const res = await axios.get(`${process.env.NEXT_PUBLIC_API}/weather?city=${city}`);
       setWeather(res.data);
       setCity('');
     } catch (err) {
