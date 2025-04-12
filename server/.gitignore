@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Build output
+/dist
+/build
+
+# OS-specific files (e.g., macOS)
+.DS_Store
+
+# npm-debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

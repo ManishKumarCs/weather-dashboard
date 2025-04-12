@@ -1,0 +1,10 @@
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body.bg-dark {
+  background: linear-gradient(135deg, #1c1c1c 0%, #434343 100%);
+}
